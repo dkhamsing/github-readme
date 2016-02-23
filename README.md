@@ -2,6 +2,8 @@
 
 Get the README from a GitHub repository :octocat:
 
+[![Gem Version](https://badge.fury.io/rb/github-readme.svg)](https://badge.fury.io/rb/github-readme) [![Build Status](https://travis-ci.org/dkhamsing/github-readme.svg)](https://travis-ci.org/dkhamsing/github-readme)
+
 ## Installation
 
 ```shell
