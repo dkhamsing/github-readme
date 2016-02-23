@@ -1,7 +1,9 @@
 language: ruby
 rvm: 2.2
 install: bundle install
-script: bundle exec github-readme
-after_script: 
+script:
+  - bundle exec github-readme
+  - gem install github-readme --pre
+after_script:
   - bundle exec github-readme dkhamsing/awesome_bot
   - cat dkhamsing-awesome_bot-readme.md
