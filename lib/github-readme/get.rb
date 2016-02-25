@@ -34,7 +34,7 @@ module GitHubReadme
       name = r['name']
 
       content = r['content']
-      if content.nil?
+      if content.nil? || content == ''
         readme = nil
         summary = nil
         error = "No README"
