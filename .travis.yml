@@ -4,6 +4,7 @@ install: bundle install
 script:
   - bundle exec github-readme
   - gem install github-readme --pre
+  - rspec -fd
 after_script:
   - bundle exec github-readme dkhamsing/awesome_bot
   - cat dkhamsing-awesome_bot-readme.md
